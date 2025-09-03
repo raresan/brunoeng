@@ -19,12 +19,13 @@
     @include position-fit;
 
     content: '';
-    background: url('../../../assets/images/foto-bhs.png') no-repeat 55% / 400%;
+    background: url('../../../assets/images/brunoeng-bg_low.png') no-repeat 70% / cover;
     opacity: 0.3;
     z-index: -1;
 
     @include above('desktop') {
-      background: url('../../../assets/images/foto-bhs.png') no-repeat 28% 28% / 128%;
+      background: url('../../../assets/images/brunoeng-bg_low.png') no-repeat 28% 28% /
+        cover;
     }
   }
 }
